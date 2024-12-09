@@ -5,11 +5,10 @@ import { defineConfig } from "astro/config";
 // TODO: Replace with Lamna domain when received
 // https://astro.build/config
 export default defineConfig({
-  base: "/lamna",
   integrations: [vue(), tailwind()],
   server: {
     port: 3000,
     host: true,
   },
-  site: "https://cyrus01337.github.io",
+  site: "https://lamna-app.github.io",
 });
